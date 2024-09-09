@@ -1,0 +1,70 @@
+/* CSS for setting background color and text color */
+body {
+    background-color: #1a1a1a; /* A blackish shade */
+    color: white; /* White text */
+}
+
+/* CSS for horizontal navigation */
+.navbar {
+    display: flex; /* Arrange the links horizontally */
+    justify-content: space-around; /* Distribute space evenly */
+    background-color: #333; /* Background color for the navbar */
+    padding: 5px; /* Add some padding */
+}
+
+/* Style for individual links */
+.navbar a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 10px; /* Padding around links */
+    font-size: 15px; /* Set font size */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Container for the layout */
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space between */
+    align-items: flex-start; /* Align items at the top */
+    padding: 5px;
+}
+
+/* Left side with name and picture */
+.left {
+    position: relative;
+    width: 50%; /* Adjust width as needed */
+    text-align: center; /* Center the name and image */
+}
+
+.left h1 {
+    position: relative; /* Absolutely position the name */
+    top: 0; /* Align it with the top of the page */
+    left: 0; /* Align it with the left of the page */
+     /* Remove default margin */
+    padding: 10px; /* Add some padding */
+    font-size: 60px;
+}
+
+
+.pic {
+    width: 200%; /* Make the image responsive */
+    max-width: 300px; /* Limit the image size */
+    height: auto;
+    border-radius: 0%; /* Make the image circular */
+}
+
+/* Right side with introduction text */
+.right {
+    width: 65%; /* Adjust width as needed */
+    font-size: 18px; /* Set font size for introduction */
+    line-height: 1.6; /* Improve readability */
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+
