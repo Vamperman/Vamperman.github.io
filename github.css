@@ -278,6 +278,8 @@ body {
 
     .contact-container .right .pic {
         margin-bottom: 20px; /* Add space below the image when stacked */
+        width: 90%;
+        align-items: center;
     }
 
     .contact-container .left h1 {
