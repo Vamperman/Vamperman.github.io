@@ -142,7 +142,7 @@ body {
 }
 
 .educationimg, .skillimg {
-    width: 100%; /* Make the image responsive */
+    width: 50%; /* Make the image responsive */
     margin-bottom: 10px; /* Add some space below the image */
 }
 
@@ -178,7 +178,6 @@ body {
     display: grid;
     grid-template-columns: 1fr; /* Single column for the grid */
     grid-gap: 20px; /* Space between grid items */
-    max-width: 800px;
     width: 100%;
     margin-left: 50px; /* Align grid under the title */
 }
