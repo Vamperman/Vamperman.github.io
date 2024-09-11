@@ -1,35 +1,35 @@
 /* CSS for setting background color and text color */
 body {
-    background-color: #1a1a1a; /* A blackish shade */
-    color: white; /* White text */
+    background-color: #1a1a1a; 
+    color: white; 
 }
 
 /* CSS for horizontal navigation */
 .navbar {
-    display: flex; /* Arrange the links horizontally */
+    display: flex; 
     justify-content: space-around; /* Distribute space evenly */
-    background-color: #1a1a1a; /* Background color for the navbar #333 */
-    padding: 5px; /* Add some padding */
+    background-color: #1a1a1a; 
+    padding: 5px; 
 }
 
 /* Style for individual links */
 .navbar a {
-    color: white; /* White text color for links */
+    color: white; 
     text-decoration: none; /* Remove underline from links */
-    padding: 10px 10px; /* Padding around links */
-    font-size: 15px; /* Set font size */
+    padding: 10px 10px; 
+    font-size: 15px; 
 }
 
 /* Change link color on hover */
 .navbar a:hover {
-    background-color: #575757; /* Darker background on hover */
-    border-radius: 5px; /* Rounded corners on hover */
+    background-color: #575757; 
+    border-radius: 5px; 
 }
 
 /* Container for the layout */
 .container {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Align items with space between */
+    display: flex; 
+    justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
     padding: 5px;
     width : 100%;
@@ -38,35 +38,35 @@ body {
 /* Left side with name and picture */
 .left {
     position: relative;
-    width: 75%; /* Adjust width as needed */
-     /* Center the name and image */
+    width: 75%; 
+     
 }
 
 .left h1 {
-    margin-top: 10px; /* Space between name and picture */
-    /*padding: 10px; /* Add some padding */
+    margin-top: 10px; 
+
     margin-left: 50px;
-    /*background-color: #333; /* Solid background texture */
-    color: white; /* White text */
-    font-size: 500%; /* Adjust font size */
-    text-align: left; /* Center text */
-    line-height: 1.0; /* Reduce line height to minimize gap between first and last name */
+
+    color: white; 
+    font-size: 500%;
+    text-align: left; 
+    line-height: 1.0; 
     max-width: 500px;
 }
 
 
 .pic {
-    width: 50%; /* Make the image responsive */
+    width: 50%; 
     height: auto;
-    border-radius: 0%; /* Make the image circular */
+    border-radius: 0%; 
     margin-left: 50px;
 }
 
 /* Right side with introduction text */
 .right {
-    width: 45%; /* Adjust width as needed */
-    font-size: 30px; /* Set font size for introduction */
-    line-height: 1.5; /* Improve readability */
+    width: 45%; 
+    font-size: 30px; 
+    line-height: 1.5; 
     margin-top: 180px;
     margin-right: 50px;
 }
@@ -75,7 +75,7 @@ body {
 @media (max-width: 768px) {
     .container {
         flex-direction: column; /* Stack left and right side vertically */
-        margin-left: 10px; /* Reduce margin for smaller screens */
+        margin-left: 10px; 
     }
 
     .container .left {
@@ -100,26 +100,25 @@ body {
 
 /* Container for Education and Skills */
 .nexthome {
-    display: flex; /* Flexbox layout for side-by-side */
-    justify-content: space-between; /* Space between education and skills */
-    margin-top: 80px; /* Space above the section */
-    margin-left: 50px; /* Default margin for larger screens */
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 80px; 
+    margin-left: 50px; 
     margin-right: 50px;
 
 }
 
 /* Education section */
 .education {
-    width: 45%; /* Adjust width to balance with skills */
+    width: 45%; 
 }
 
 .education h1 {
-    font-size: 36px; /* Adjust font size */
+    font-size: 36px; 
 }    
 
 .education p {
-    font-size: 20px; /* Adjust font size */
-     /* Line height for readability */
+    font-size: 20px; 
 }
 
 .education h1, .education h2, .education p {
@@ -129,21 +128,21 @@ body {
 
 /* Skills section */
 .skills {
-    width: 45%; /* Adjust width to balance with education */
+    width: 45%; 
 }
 
 .skills h1 {
-    font-size: 36px; /* Adjust font size */
+    font-size: 36px; 
 }
 
 .skills p {
-    font-size: 20px; /* Adjust font size */
+    font-size: 20px; 
     line-height: 1.5; /* Line height for readability */
 }
 
 .educationimg, .skillimg {
-    width: 50%; /* Make the image responsive */
-    margin-bottom: 10px; /* Add some space below the image */
+    width: 50%; 
+    margin-bottom: 10px; 
 }
 
 
@@ -163,13 +162,13 @@ body {
 
 .title {
     margin-top: 10px; /* Space between name and picture */
-    /*padding: 10px; /* Add some padding */
+
     margin-left: 50px;
-    /*background-color: #333; /* Solid background texture */
-    color: white; /* White text */
-    font-size: 300%; /* Adjust font size */
-    text-align: left; /* Center text */
-    line-height: 1.0; /* Reduce line height to minimize gap between first and last name */
+
+    color: white; 
+    font-size: 300%; 
+    text-align: left; 
+    line-height: 1.0; 
     max-width: 500px;
     width: 100%;
 }
@@ -192,7 +191,7 @@ body {
 /* Styling for project number */
 .project h1 {
     margin: 0;
-    font-size: 40px; /* Size of project number */
+    font-size: 40px;
     color: white;
     width: 50px; /* Fixed width for project number */
     text-align: left;
@@ -202,7 +201,7 @@ body {
 /* Styling for project description */
 .project p {
     margin: 0;
-    font-size: 36px; /* Adjust font size for description */
+    font-size: 36px; 
     line-height: 1.4; /* Line height for readability */
     margin-left: 20px; /* Space between number and description */
     max-width: 600px; /* Limit the width of the description */
@@ -227,11 +226,11 @@ body {
 
 /* Contact title */
 .contact-container .left h1 {
-    font-size: 82px; /* Make the font size larger */
-    color: white; /* White text color */
-    margin-bottom: 20px; /* Space between title and email section */
-    line-height: 1.2; /* Reduce the gap between "CONTACT" and "ME" */
-    text-align: left; /* Start from the very left */
+    font-size: 82px; 
+    color: white; 
+    margin-bottom: 20px; 
+    line-height: 1.2; 
+    text-align: left; 
     margin-left: 0px;
     margin-top: 10px;
 }
@@ -240,7 +239,7 @@ body {
 .contact-container .email h1 {
     font-size: 36px; /* Font size for the email heading */
     color: white;
-    margin-top: 100px; /* Adjust margin between title and email */
+    margin-top: 100px;
     margin-left: 0px;
 }
 
@@ -267,26 +266,26 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .contact-container {
-        flex-direction: column; /* Stack image and text vertically */
-        align-items: center; /* Center the items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact-container .left, .contact-container .right {
-        width: 100%; /* Full width for both image and text */
+        width: 100%; 
         margin-left: 0;
     }
 
     .contact-container .right .pic {
-        margin-bottom: 20px; /* Add space below the image when stacked */
+        margin-bottom: 20px; 
         width: 90%;
         align-items: center;
     }
 
     .contact-container .left h1 {
-        text-align: center; /* Center the text when stacked */
+        text-align: center; 
     }
 
     .contact-container .email p {
-        text-align: center; /* Center the email text when stacked */
+        text-align: center; 
     }
 }
